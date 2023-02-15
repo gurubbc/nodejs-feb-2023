@@ -1,0 +1,28 @@
+<html>
+
+<head>
+    <title>Browserify Demo</title>
+    <script src="./bundle1.js"></script>
+    <script>
+        function f1() {
+            alert("welcome...static msg")
+            console.log(gv.tellMeDate1())
+            console.log(gv.sayWelcome())
+            // alert(gv.tellMeDate1())
+            alert(gv.sayWelcome())
+            alert(gv.showDate());
+            // document.writeln(gv.tellMeDate())
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <h1> Welcome to Browserify Demo </h1>
+   
+    <button onclick="f1()">Show Date</button>
+
+</body>
+
+</html>
